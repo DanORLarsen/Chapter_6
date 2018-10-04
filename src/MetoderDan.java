@@ -7,8 +7,8 @@ public class MetoderDan {
             per = n%10;
             n = (n/10);
          total += per;
-            System.out.println(total);
         }
+        System.out.print("The total is: ");
         return total;
     }
 
